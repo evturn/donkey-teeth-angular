@@ -96,7 +96,7 @@ body {
 
 /* PAGES (specific colors for each page)
 ============================================================================= */
-.home      { background:#00D0BC; color:#00907c; }
+.main      { background:#00D0BC; color:#00907c; }
 .about     { background:#E59400; color:#a55400; }
 .contact   { background:#ffa6bb; color:#9e0000; }
 
@@ -145,8 +145,8 @@ body {
 .ng-leave           { animation: slideOutLeft 0.5s both ease-in; z-index: 9999; }
 
 /* home -------------------------- */
-.home.ng-enter         { animation: scaleUp 0.5s both ease-in; }
-.home.ng-leave         { transform-origin: 0% 0%; animation: rotateFall 1s both ease-in; }
+.main.ng-enter         { animation: scaleUp 0.5s both ease-in; }
+.main.ng-leave         { transform-origin: 0% 0%; animation: rotateFall 1s both ease-in; }
 
 /* about ------------------------ */
 .about.ng-enter        { animation:slideInRight 0.5s both ease-in; }
