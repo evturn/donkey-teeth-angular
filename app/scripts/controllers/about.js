@@ -10,4 +10,5 @@
 angular.module('donkeyTeethApp')
   .controller('AboutCtrl', function ($scope) {
   	$scope.message = 'This page is a page about me for you.';
+  	$scope.pageClass = 'about';
   });
