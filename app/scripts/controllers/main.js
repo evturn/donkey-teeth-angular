@@ -10,4 +10,5 @@
 angular.module('donkeyTeethApp')
   .controller('MainCtrl', function ($scope) {
     $scope.message = 'Please stop looking at my site. Thanks.';
+  	$scope.image   = 'images/avatar.jpg';
   });
