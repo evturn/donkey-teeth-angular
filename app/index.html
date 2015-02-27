@@ -1,12 +1,12 @@
 <!doctype html>
-<html class="no-js">
+<html ng-app="donkeyTeethApp" class="no-js">
   <head>
     <meta charset="utf-8">
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="icon" href="favicon.jpg">
+    <link rel="icon" href="http://www.abeka.com/BookImages/ClipArt/216909/46x46y50fx50fh/216909-tooth,-smiling,-facing-front-line-png.png">
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" >
     <!-- endbuild -->
   </head>
-  <body ng-app="donkeyTeethApp">
+  <body ng-controller="MainCtrl">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -53,9 +53,9 @@
 
     <!-- MAIN CONTENT AND INJECTED VIEWS -->
     <div class="container">
-      
+
       <div ng-view="">
-        
+
         <!-- angular templating -->
 
       </div>
