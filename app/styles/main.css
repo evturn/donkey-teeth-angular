@@ -97,8 +97,8 @@ body {
 /* PAGES (specific colors for each page)
 ============================================================================= */
 .main      { background:#00D0BC; color:#00907c; }
-.about     { background:#E59400; color:#a55400; }
-.contact   { background:#ffa6bb; color:#9e0000; }
+.about     { background:#000080; color:#d3d3d3; }
+.contact   { background:#ff0000; color:#ffffff; }
 
 /* ANIMATIONS
 ============================================================================= */
