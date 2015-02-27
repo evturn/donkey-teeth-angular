@@ -9,9 +9,5 @@
  */
 angular.module('donkeyTeethApp')
   .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  	$scope.message = 'This page is a page about me for you.';
   });
