@@ -81,12 +81,3 @@ body {
     border-bottom: 0;
   }
 }
-
-img.nav-logo {
-  max-height: 50px;
-  width: auto;
-}
-
-a.navbar-brand {
-  padding-top: 0px;
-}
